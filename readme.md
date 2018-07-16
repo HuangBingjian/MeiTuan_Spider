@@ -29,7 +29,7 @@ QT界面：
 
 各片区美食分布：
 
-![image](https://github.com/HuangBingjian/MeiTuan_Spider/blob/master/Resource/杭州各片区美食分布.jpg)
+![image](https://github.com/HuangBingjian/MeiTuan_Spider/blob/master/Resource/北京各片区美食分布.jpg)
 
 美食的分布情况：
 
