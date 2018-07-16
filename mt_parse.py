@@ -47,7 +47,7 @@ class show_window(QWidget):
         self.titleLabel = QLabel("美团美食爬虫")
         self.titleLabel.setAlignment(Qt.AlignCenter)
 
-        self.authorLabel = QLabel("作者：bj / HuangBingjian")
+        self.authorLabel = QLabel("作者：笔尖 / bj")
         self.authorLabel.setAlignment(Qt.AlignRight)
 
         self.wordLabel = QLabel("词云")
