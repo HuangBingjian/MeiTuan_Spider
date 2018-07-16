@@ -37,11 +37,11 @@ def show_wordcloud(file_path, city, width, height, max_words, max_font_size, ran
                           scale=scale).generate(space_list) # 生成词云
 
     image_color=ImageColorGenerator(backgroud) # 生成词云的颜色
-    # plt.figure(4)
-    # plt.imshow(mt_wordcloud.recolor(color_func=image_color), interpolation="bilinear") # 显示词云
-    # plt.axis("off")
-    # plt.figure(5)
-    # plt.imshow(backgroud, interpolation="bilinear")
-    # plt.axis("off")
-    # plt.show()
-    # mt_wordcloud.to_file('./Resource/词云_{0}.jpg'.format(city))
+    plt.figure(4)
+    plt.imshow(mt_wordcloud.recolor(color_func=image_color), interpolation="bilinear") # 显示词云
+    plt.axis("off")
+    plt.figure(5)
+    plt.imshow(backgroud, interpolation="bilinear")
+    plt.axis("off")
+    plt.show()
+    mt_wordcloud.to_file('./Resource/词云_{0}.jpg'.format(city))

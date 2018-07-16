@@ -47,7 +47,7 @@ class show_window(QWidget):
         self.titleLabel = QLabel("美团美食爬虫")
         self.titleLabel.setAlignment(Qt.AlignCenter)
 
-        self.authorLabel = QLabel("作者：黄炳坚 吴林源 廖凯文")
+        self.authorLabel = QLabel("作者：bj / HuangBingjian")
         self.authorLabel.setAlignment(Qt.AlignRight)
 
         self.wordLabel = QLabel("词云")
@@ -170,8 +170,8 @@ class show_window(QWidget):
         analyse_district(self.file_path, self.list_city[index])                          # 分析各行政区
         analyse_area(self.file_path, self.list_city[index], self.showSpin.value())       # 分析各地片区
         analyse_cate(self.file_path, self.list_city[index], self.showSpin.value())       # 分析美食类别
-        # show_wordcloud(self.file_path, self.list_city[index], int(self.widthLine.text()), int(self.heightLine.text()), int(self.maxLine.text()),
-        #                int(self.fontLine.text()), int(self.randLine.text()), float(self.scaleLine.text()))            # 显示词云图片
+        show_wordcloud(self.file_path, self.list_city[index], int(self.widthLine.text()), int(self.heightLine.text()), int(self.maxLine.text()),
+                       int(self.fontLine.text()), int(self.randLine.text()), float(self.scaleLine.text()))            # 显示词云图片
 
     def open_file(self, file_path, index):                               # 打开CSV文件,获取商家信息
         if not os.path.exists(file_path):                               # CSV不存在时才执行下面操作，存在则跳过
