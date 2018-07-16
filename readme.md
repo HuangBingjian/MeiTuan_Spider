@@ -14,6 +14,10 @@ http://api.meituan.com/group/v4/deal/select/city/1/cate/1?sort=solds&hasGroup=tr
 
 使用美团API接口获取商铺美食信息。1位置的数值可更改，1为北京，10为上海，20为广州，30为深圳，其它城市自行探索。
 
+如果Resource文件夹中没有对应城市的CSV数据文件，则会从网站中爬取，否则直接从CSV中读取数据。
+
+若要最新数据，建议删除Resource文件夹中的CSV等文件。
+
 ---
 
 QT界面：
