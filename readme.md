@@ -20,6 +20,9 @@ QT界面：
 
 ![image](https://github.com/HuangBingjian/MeiTuan_Spider/blob/master/Resource/result.jpg)
 
+爬取信息：
+![image](https://github.com/HuangBingjian/MeiTuan_Spider/blob/master/Resource/result_csv.jpg)
+
 各行政区美食分布：
 
 ![image](https://github.com/HuangBingjian/MeiTuan_Spider/blob/master/Resource/北京各行政区美食分布.jpg)
